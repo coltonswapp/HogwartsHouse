@@ -13,10 +13,11 @@
 		75AA03BD24D397080019E4C2 /* Hogwartshouses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03BB24D397080019E4C2 /* Hogwartshouses.xcdatamodeld */; };
 		75AA03BF24D3970A0019E4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03BE24D3970A0019E4C2 /* Assets.xcassets */; };
 		75AA03C224D3970A0019E4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03C024D3970A0019E4C2 /* LaunchScreen.storyboard */; };
-		75AA03CA24D398260019E4C2 /* Hogwarts Assets in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03C924D398260019E4C2 /* Hogwarts Assets */; };
 		75AA03DF24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */; };
 		75AA03E124D39A4D0019E4C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */; };
 		75AA03E824D39DB40019E4C2 /* HouseGuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03E724D39DB40019E4C2 /* HouseGuessController.swift */; };
+		75AA03EA24D3A8A40019E4C2 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03E924D3A8A40019E4C2 /* MainTableViewController.swift */; };
+		75AA03EC24D3ABFC0019E4C2 /* HouseGuessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03EB24D3ABFC0019E4C2 /* HouseGuessTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,6 @@
 		75AA03BE24D3970A0019E4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AA03C124D3970A0019E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AA03C324D3970A0019E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75AA03C924D398260019E4C2 /* Hogwarts Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Hogwarts Assets"; path = "../../../../../../../Downloads/Hogwarts Assets"; sourceTree = "<group>"; };
 		75AA03CE24D398780019E4C2 /* hogwarts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hogwarts.png; sourceTree = "<group>"; };
 		75AA03CF24D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		75AA03D124D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -43,6 +43,8 @@
 		75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HogwartsHousesCD + Convenience.swift"; sourceTree = "<group>"; };
 		75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		75AA03E724D39DB40019E4C2 /* HouseGuessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseGuessController.swift; sourceTree = "<group>"; };
+		75AA03E924D3A8A40019E4C2 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		75AA03EB24D3ABFC0019E4C2 /* HouseGuessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseGuessTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				75AA03B824D397080019E4C2 /* Main.storyboard */,
-				75AA03E424D39D770019E4C2 /* Views */,
+				75AA03E424D39D770019E4C2 /* CustomCell */,
 				75AA03E324D39D740019E4C2 /* Models */,
 				75AA03E224D39D6A0019E4C2 /* Controllers */,
 				75AA03CB24D398650019E4C2 /* Resources */,
-				75AA03C924D398260019E4C2 /* Hogwarts Assets */,
 			);
 			path = Hogwartshouses;
 			sourceTree = "<group>";
@@ -183,16 +184,18 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		75AA03E424D39D770019E4C2 /* Views */ = {
+		75AA03E424D39D770019E4C2 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				75AA03EB24D3ABFC0019E4C2 /* HouseGuessTableViewCell.swift */,
 			);
-			path = Views;
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		75AA03E524D39D800019E4C2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75AA03E924D3A8A40019E4C2 /* MainTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -264,7 +267,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				75AA03C224D3970A0019E4C2 /* LaunchScreen.storyboard in Resources */,
-				75AA03CA24D398260019E4C2 /* Hogwarts Assets in Resources */,
 				75AA03BF24D3970A0019E4C2 /* Assets.xcassets in Resources */,
 				75AA03BA24D397080019E4C2 /* Main.storyboard in Resources */,
 			);
@@ -283,6 +285,8 @@
 				75AA03BD24D397080019E4C2 /* Hogwartshouses.xcdatamodeld in Sources */,
 				75AA03B324D397080019E4C2 /* AppDelegate.swift in Sources */,
 				75AA03B524D397080019E4C2 /* SceneDelegate.swift in Sources */,
+				75AA03EC24D3ABFC0019E4C2 /* HouseGuessTableViewCell.swift in Sources */,
+				75AA03EA24D3A8A40019E4C2 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
