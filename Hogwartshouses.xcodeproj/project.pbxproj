@@ -16,6 +16,7 @@
 		75AA03CA24D398260019E4C2 /* Hogwarts Assets in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03C924D398260019E4C2 /* Hogwarts Assets */; };
 		75AA03DF24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */; };
 		75AA03E124D39A4D0019E4C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */; };
+		75AA03E824D39DB40019E4C2 /* HouseGuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03E724D39DB40019E4C2 /* HouseGuessController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		75AA03DD24D398780019E4C2 /* hufflepuff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hufflepuff.png; sourceTree = "<group>"; };
 		75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HogwartsHousesCD + Convenience.swift"; sourceTree = "<group>"; };
 		75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		75AA03E724D39DB40019E4C2 /* HouseGuessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseGuessController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +75,12 @@
 		75AA03B124D397080019E4C2 /* Hogwartshouses */ = {
 			isa = PBXGroup;
 			children = (
-				75AA03CB24D398650019E4C2 /* Resources */,
 				75AA03B824D397080019E4C2 /* Main.storyboard */,
+				75AA03E424D39D770019E4C2 /* Views */,
+				75AA03E324D39D740019E4C2 /* Models */,
+				75AA03E224D39D6A0019E4C2 /* Controllers */,
+				75AA03CB24D398650019E4C2 /* Resources */,
 				75AA03C924D398260019E4C2 /* Hogwarts Assets */,
-				75AA03BB24D397080019E4C2 /* Hogwartshouses.xcdatamodeld */,
-				75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */,
-				75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */,
 			);
 			path = Hogwartshouses;
 			sourceTree = "<group>";
@@ -162,6 +164,47 @@
 			path = hufflepuff.imageset;
 			sourceTree = "<group>";
 		};
+		75AA03E224D39D6A0019E4C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03E624D39D850019E4C2 /* ModelControllers */,
+				75AA03E524D39D800019E4C2 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75AA03E324D39D740019E4C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03BB24D397080019E4C2 /* Hogwartshouses.xcdatamodeld */,
+				75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */,
+				75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75AA03E424D39D770019E4C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75AA03E524D39D800019E4C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75AA03E624D39D850019E4C2 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03E724D39DB40019E4C2 /* HouseGuessController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75AA03E824D39DB40019E4C2 /* HouseGuessController.swift in Sources */,
 				75AA03E124D39A4D0019E4C2 /* CoreDataStack.swift in Sources */,
 				75AA03DF24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift in Sources */,
 				75AA03BD24D397080019E4C2 /* Hogwartshouses.xcdatamodeld in Sources */,
@@ -384,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JW8ZF569KC;
-				INFOPLIST_FILE = Hogwartshouses/Info.plist;
+				INFOPLIST_FILE = Hogwartshouses/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JW8ZF569KC;
-				INFOPLIST_FILE = Hogwartshouses/Info.plist;
+				INFOPLIST_FILE = Hogwartshouses/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
