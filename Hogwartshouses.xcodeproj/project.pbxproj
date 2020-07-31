@@ -9,23 +9,38 @@
 /* Begin PBXBuildFile section */
 		75AA03B324D397080019E4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03B224D397080019E4C2 /* AppDelegate.swift */; };
 		75AA03B524D397080019E4C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03B424D397080019E4C2 /* SceneDelegate.swift */; };
-		75AA03B724D397080019E4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03B624D397080019E4C2 /* ViewController.swift */; };
 		75AA03BA24D397080019E4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03B824D397080019E4C2 /* Main.storyboard */; };
 		75AA03BD24D397080019E4C2 /* Hogwartshouses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03BB24D397080019E4C2 /* Hogwartshouses.xcdatamodeld */; };
 		75AA03BF24D3970A0019E4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03BE24D3970A0019E4C2 /* Assets.xcassets */; };
 		75AA03C224D3970A0019E4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03C024D3970A0019E4C2 /* LaunchScreen.storyboard */; };
+		75AA03CA24D398260019E4C2 /* Hogwarts Assets in Resources */ = {isa = PBXBuildFile; fileRef = 75AA03C924D398260019E4C2 /* Hogwarts Assets */; };
+		75AA03DF24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */; };
+		75AA03E124D39A4D0019E4C2 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75AA03AF24D397080019E4C2 /* Hogwartshouses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hogwartshouses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AA03B224D397080019E4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75AA03B424D397080019E4C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75AA03B624D397080019E4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75AA03B924D397080019E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75AA03BC24D397080019E4C2 /* Hogwartshouses.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hogwartshouses.xcdatamodel; sourceTree = "<group>"; };
 		75AA03BE24D3970A0019E4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AA03C124D3970A0019E4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AA03C324D3970A0019E4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AA03C924D398260019E4C2 /* Hogwarts Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Hogwarts Assets"; path = "../../../../../../../Downloads/Hogwarts Assets"; sourceTree = "<group>"; };
+		75AA03CE24D398780019E4C2 /* hogwarts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hogwarts.png; sourceTree = "<group>"; };
+		75AA03CF24D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		75AA03D124D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		75AA03D224D398780019E4C2 /* gryffindor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gryffindor.png; sourceTree = "<group>"; };
+		75AA03D424D398780019E4C2 /* slytherin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slytherin.png; sourceTree = "<group>"; };
+		75AA03D524D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		75AA03D724D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		75AA03D824D398780019E4C2 /* ravenclaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ravenclaw.png; sourceTree = "<group>"; };
+		75AA03DA24D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		75AA03DC24D398780019E4C2 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		75AA03DD24D398780019E4C2 /* hufflepuff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hufflepuff.png; sourceTree = "<group>"; };
+		75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HogwartsHousesCD + Convenience.swift"; sourceTree = "<group>"; };
+		75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +73,93 @@
 		75AA03B124D397080019E4C2 /* Hogwartshouses */ = {
 			isa = PBXGroup;
 			children = (
+				75AA03CB24D398650019E4C2 /* Resources */,
+				75AA03B824D397080019E4C2 /* Main.storyboard */,
+				75AA03C924D398260019E4C2 /* Hogwarts Assets */,
+				75AA03BB24D397080019E4C2 /* Hogwartshouses.xcdatamodeld */,
+				75AA03DE24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift */,
+				75AA03E024D39A4D0019E4C2 /* CoreDataStack.swift */,
+			);
+			path = Hogwartshouses;
+			sourceTree = "<group>";
+		};
+		75AA03CB24D398650019E4C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03CC24D398780019E4C2 /* Hogwarts Assets */,
 				75AA03B224D397080019E4C2 /* AppDelegate.swift */,
 				75AA03B424D397080019E4C2 /* SceneDelegate.swift */,
-				75AA03B624D397080019E4C2 /* ViewController.swift */,
-				75AA03B824D397080019E4C2 /* Main.storyboard */,
 				75AA03BE24D3970A0019E4C2 /* Assets.xcassets */,
 				75AA03C024D3970A0019E4C2 /* LaunchScreen.storyboard */,
 				75AA03C324D3970A0019E4C2 /* Info.plist */,
-				75AA03BB24D397080019E4C2 /* Hogwartshouses.xcdatamodeld */,
 			);
-			path = Hogwartshouses;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75AA03CC24D398780019E4C2 /* Hogwarts Assets */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03CD24D398780019E4C2 /* hogwarts.imageset */,
+				75AA03D024D398780019E4C2 /* gryffindor.imageset */,
+				75AA03D324D398780019E4C2 /* slytherin.imageset */,
+				75AA03D624D398780019E4C2 /* ravenclaw.imageset */,
+				75AA03D924D398780019E4C2 /* AppIcon.appiconset */,
+				75AA03DB24D398780019E4C2 /* hufflepuff.imageset */,
+			);
+			path = "Hogwarts Assets";
+			sourceTree = "<group>";
+		};
+		75AA03CD24D398780019E4C2 /* hogwarts.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03CE24D398780019E4C2 /* hogwarts.png */,
+				75AA03CF24D398780019E4C2 /* Contents.json */,
+			);
+			path = hogwarts.imageset;
+			sourceTree = "<group>";
+		};
+		75AA03D024D398780019E4C2 /* gryffindor.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03D124D398780019E4C2 /* Contents.json */,
+				75AA03D224D398780019E4C2 /* gryffindor.png */,
+			);
+			path = gryffindor.imageset;
+			sourceTree = "<group>";
+		};
+		75AA03D324D398780019E4C2 /* slytherin.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03D424D398780019E4C2 /* slytherin.png */,
+				75AA03D524D398780019E4C2 /* Contents.json */,
+			);
+			path = slytherin.imageset;
+			sourceTree = "<group>";
+		};
+		75AA03D624D398780019E4C2 /* ravenclaw.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03D724D398780019E4C2 /* Contents.json */,
+				75AA03D824D398780019E4C2 /* ravenclaw.png */,
+			);
+			path = ravenclaw.imageset;
+			sourceTree = "<group>";
+		};
+		75AA03D924D398780019E4C2 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03DA24D398780019E4C2 /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		75AA03DB24D398780019E4C2 /* hufflepuff.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				75AA03DC24D398780019E4C2 /* Contents.json */,
+				75AA03DD24D398780019E4C2 /* hufflepuff.png */,
+			);
+			path = hufflepuff.imageset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75AA03C224D3970A0019E4C2 /* LaunchScreen.storyboard in Resources */,
+				75AA03CA24D398260019E4C2 /* Hogwarts Assets in Resources */,
 				75AA03BF24D3970A0019E4C2 /* Assets.xcassets in Resources */,
 				75AA03BA24D397080019E4C2 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75AA03B724D397080019E4C2 /* ViewController.swift in Sources */,
+				75AA03E124D39A4D0019E4C2 /* CoreDataStack.swift in Sources */,
+				75AA03DF24D399650019E4C2 /* HogwartsHousesCD + Convenience.swift in Sources */,
 				75AA03BD24D397080019E4C2 /* Hogwartshouses.xcdatamodeld in Sources */,
 				75AA03B324D397080019E4C2 /* AppDelegate.swift in Sources */,
 				75AA03B524D397080019E4C2 /* SceneDelegate.swift in Sources */,

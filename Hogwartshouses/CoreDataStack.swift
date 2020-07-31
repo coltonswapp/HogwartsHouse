@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import CoreData
+
+class CoreDataStack {
+    static let container : NSPersistentContainer = {
+        let container = NSPersistentContainer(name: "Hogwartshouses")
+        container.loadPersistentStores { (storeDescription, error) in
+            if let error = error {
+                
+                print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
+            }
+        }
+        return container
+    }()
+    static var context: NSManagedObjectContext { return container.viewContext}
+}

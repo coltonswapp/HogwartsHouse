@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import CoreData
+
+extension HouseGuess {
+    convenience init(guessName: String, house: String, isVisible: Bool = false, context: NSManagedObjectContext) {
+        self.init(context: context)
+        self.guessName = guessName
+        self.house = house
+        self.isVisible = isVisible
+    }
+}
